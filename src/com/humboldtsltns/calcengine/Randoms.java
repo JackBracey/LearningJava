@@ -1,6 +1,5 @@
 package com.humboldtsltns.calcengine;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
@@ -16,7 +15,6 @@ public class Randoms {
     public Randoms() {
     }
 
-    //Gens
     public String nameGen() {
 
         loadFile("forenames.txt", names);
