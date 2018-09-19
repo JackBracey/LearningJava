@@ -1,6 +1,8 @@
 package com.humboldtsltns.calcengine;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +14,6 @@ public class Randoms {
     ArrayList<String> letter = new ArrayList<String>();
 
     public Randoms() {
-
     }
 
     //Gens
@@ -56,6 +57,19 @@ public class Randoms {
             System.out.println(e + ": Could not find file");
         }
 
+    }
+
+    public void saveFile(List<Person> personList, String fileName) {
+        try {
+            FileWriter fileWriter = new FileWriter(fileName);
+            for (Person person : personList) {
+                fileWriter.write("First name: " + person.firstName + "\nSurname: " + person.surname + "\nAge: " + person.age + "\nPostcode: " + person.postcode + "\n-------------\n");
+            }
+            System.out.println("File created");
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("File not created");
+        }
     }
 
 }

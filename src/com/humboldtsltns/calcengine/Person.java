@@ -1,7 +1,5 @@
 package com.humboldtsltns.calcengine;
 
-import java.util.Objects;
-
 public class Person implements Comparable<Person> {
 
     String firstName;
@@ -18,23 +16,10 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person o) {
+        int compareInt = this.surname.compareTo(o.surname);
+        if (compareInt > 0) return 1;
+        if (compareInt < 0) return -1;
         return 0;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return age == person.age &&
-                Objects.equals(firstName, person.firstName) &&
-                Objects.equals(surname, person.surname) &&
-                Objects.equals(postcode, person.postcode);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(firstName, surname, age, postcode);
     }
 
     public String getFirstName() {
@@ -70,3 +55,8 @@ public class Person implements Comparable<Person> {
     }
 
 }
+
+    //@Override
+    //public int hashCode() {
+    //    return Objects.hash(firstName, surname, age, postcode);
+    //}
