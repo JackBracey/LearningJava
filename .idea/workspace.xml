@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0681631d-2776-4a16-91d5-b0d5898f1ef4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArrayOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayOutput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HeadFirstJava/com/humboldtsltns/calcengine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeadFirstJava/com/humboldtsltns/calcengine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HeadFirstJava/com/humboldtsltns/calcengine/Randoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HeadFirstJava/com/humboldtsltns/calcengine/Randoms.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +28,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15069" />
+          <entry key="java" value="15253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15069" />
+          <entry key="JAVA" value="15253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -58,63 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/ExternalComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#205#213#0" expanded="true" />
-                <element signature="method#Randoms#0;class#Randoms#0" />
-                <element signature="method#nameGen#0;class#Randoms#0" />
-                <element signature="method#surnameGen#0;class#Randoms#0" />
-                <element signature="method#letterGen#0;class#Randoms#0" />
-                <element signature="method#postcodeGen#0;class#Randoms#0" />
-                <element signature="method#loadFile#0;class#Randoms#0" />
-                <element signature="method#saveFile#0;class#Randoms#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="434">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -146,9 +89,9 @@
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/PersonHashComparator.java" />
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/PersonComparator.java" />
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java" />
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/ExternalComparator.java" />
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java" />
         <option value="$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Main.java" />
       </list>
     </option>
@@ -193,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537350937285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537351738835" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -343,24 +286,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/PersonCompare.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#213#0" expanded="true" />
-            <element signature="method#Randoms#0;class#Randoms#0" />
-            <element signature="method#nameGen#0;class#Randoms#0" />
-            <element signature="method#surnameGen#0;class#Randoms#0" />
-            <element signature="method#letterGen#0;class#Randoms#0" />
-            <element signature="method#postcodeGen#0;class#Randoms#0" />
-            <element signature="method#loadFile#0;class#Randoms#0" />
-            <element signature="method#saveFile#0;class#Randoms#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -372,17 +297,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/ExternalComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -390,10 +308,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/TreeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Randoms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#213#0" expanded="true" />
+            <element signature="method#Randoms#0;class#Randoms#0" />
+            <element signature="method#nameGen#0;class#Randoms#0" />
+            <element signature="method#surnameGen#0;class#Randoms#0" />
+            <element signature="method#letterGen#0;class#Randoms#0" />
+            <element signature="method#postcodeGen#0;class#Randoms#0" />
+            <element signature="method#loadFile#0;class#Randoms#0" />
+            <element signature="method#printList#0;class#Randoms#0" />
+            <element signature="method#printList#1;class#Randoms#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/humboldtsltns/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="434">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

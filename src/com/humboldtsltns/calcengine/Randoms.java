@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Randoms {
 
@@ -67,6 +68,31 @@ public class Randoms {
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("File not created");
+        }
+    }
+
+    public void saveFile(Set<Person> personList, String fileName) {
+        try {
+            FileWriter fileWriter = new FileWriter(fileName);
+            for (Person person : personList) {
+                fileWriter.write("First name: " + person.firstName + "\nSurname: " + person.surname + "\nAge: " + person.age + "\nPostcode: " + person.postcode + "\n-------------\n");
+            }
+            System.out.println("File created");
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("File not created");
+        }
+    }
+
+    public void printList(Set<Person> personList) {
+        for (Person person : personList) {
+            System.out.println("First name: " + person.firstName + "\nSurname: " + person.surname + "\nAge: " + person.age + "\nPostcode: " + person.postcode + "\n");
+        }
+    }
+
+    public void printList(List<Person> personList) {
+        for (Person person : personList) {
+            System.out.println("First name: " + person.firstName + "\nSurname: " + person.surname + "\nAge: " + person.age + "\nPostcode: " + person.postcode + "\n");
         }
     }
 

@@ -22,20 +22,9 @@ public class Main {
 
         personTreeSorted.addAll(personArray);
 
-        //Prints
-        for (Person person : personArray) {
+        randoms.printList(personTreeSorted);
 
-        }
-
-        for (Person person : personTreeSet) {
-
-        }
-
-        for (Person person : personTreeSorted) {
-            System.out.println("First name: " + person.firstName + "\nSurname: " + person.surname + "\nAge: " + person.age + "\nPostcode: " + person.postcode + "\n");
-        }
-
-        randoms.saveFile(personArray, "ArrayOutput.txt");
+        randoms.saveFile(personTreeSorted, "output.txt");
 
     }
 
